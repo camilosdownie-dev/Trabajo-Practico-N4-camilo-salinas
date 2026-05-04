@@ -2,21 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ejercicio.pkg2.tp4;
+package punto.pkg3.tp4;
 
 import java.util.Scanner;
 
 /**
  *
- * @author AlumnosET20
- */
-public class Ejercicio2TP4 {
+ *  Calcular la media (promedio) de una serie de números que se leen por teclado.
+El programa en Java debe pedir 10 números enteros ingresados por teclado y los 
+* guardará en un array. Debe calcular y mostrar por separado la media de los valores positivos y la de los valores negativos.
 
-    /**
-     * @param args the command line arguments
-     */
+ */
+public class Punto3TP4 {
+
+ 
     public static void main(String[] args) {
-            Scanner Lector = new Scanner(System.in);
+         Scanner Lector = new Scanner(System.in);
         int[] numeros = new int[10];
         int num_negativos = 0 ;
         int num_positivos = 0 ;
@@ -37,8 +38,4 @@ public class Ejercicio2TP4 {
         System.out.println("la suma de numeros negativos ingresados es = " + num_negativos);
         System.out.println("la suma de numeros positivos ingresados es = " + num_positivos);
     }
-}
-
-   
-
 }
