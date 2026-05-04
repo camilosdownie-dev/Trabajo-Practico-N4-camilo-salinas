@@ -19,23 +19,18 @@ public class Punto3TP4 {
     public static void main(String[] args) {
          Scanner Lector = new Scanner(System.in);
         int[] numeros = new int[10];
-        int num_negativos = 0 ;
-        int num_positivos = 0 ;
+   
         System.out.println("ingrese los 10 numeros enteros por teclado");
         for(int contador = 0 ; contador < 10 ; contador ++){
            numeros[contador] = Lector.nextInt();
             
         }
         for(int contador2 = 0 ; contador2 < 10 ; contador2 ++){
-            if (numeros[contador2] < 0) {
-                num_negativos = num_negativos + numeros[contador2];
-            }else 
-              num_positivos = num_positivos + numeros[contador2];
+            if ()
             
                 
     
     }
-        System.out.println("la suma de numeros negativos ingresados es = " + num_negativos);
-        System.out.println("la suma de numeros positivos ingresados es = " + num_positivos);
+       ;
     }
 }
