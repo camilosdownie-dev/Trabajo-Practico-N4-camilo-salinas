@@ -19,18 +19,21 @@ public class Punto3TP4 {
     public static void main(String[] args) {
          Scanner Lector = new Scanner(System.in);
         int[] numeros = new int[10];
-   
+        double promedio = 0 ;
+        double promediofr = 0 ;
         System.out.println("ingrese los 10 numeros enteros por teclado");
         for(int contador = 0 ; contador < 10 ; contador ++){
            numeros[contador] = Lector.nextInt();
-            
+          
         }
-        for(int contador2 = 0 ; contador2 < 10 ; contador2 ++){
-            if ()
+        for(int contador2 = 0 ; contador2 < 10 ; contador2 += 2 ){
+            promedio = promedio + numeros[contador2] ;
+        }
+              
+          promediofr = promedio % 5 ;       
+            System.out.println("el promedio de la suma de todos lo snumeros pare es igual a " + promediofr);
             
                 
     
+    }  
     }
-       ;
-    }
-}
